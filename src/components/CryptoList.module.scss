@@ -1,0 +1,18 @@
+.root {
+  height: 100%;
+  overflow: auto;
+  .loading{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .notFound {
+    display: flex;
+    justify-content: center;
+    span {
+      color: white;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+  }
+}

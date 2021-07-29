@@ -1,0 +1,34 @@
+.root {
+  color: #fff;
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+  .left {
+    display: flex;
+    justify-content: space-around;
+    .img {
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+      }
+    }
+    .text {
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+  }
+}

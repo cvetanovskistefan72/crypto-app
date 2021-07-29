@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      border-radius: 100%;
+      width: 75px;
+      height: 75px;
+    }
+    .text {
+      h2 {
+        padding: 0;
+        margin: 0 0 0.5rem 1rem;
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        span {
+          background-color: #2471a3;
+          color: #fff;
+          font-size: 0.6rem;
+          font-weight: bold;
+          margin: 0.15rem;
+          padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+          border-radius: 0.5rem;
+        }
+      }
+    }
+  }
+  .right {
+    h2 {
+      display: flex;
+      align-items: center;
+      .fooo {
+        background-color: #222;
+        color: #fff;
+      }
+      .priceChange {
+        display: flex;
+        align-items: center;
+        margin-left: 0.5rem;
+        background-color: yellow;
+        padding: 0.25rem;
+        border-radius: 0.5rem;
+        color: white;
+      }
+       
+    }
+  }
+}

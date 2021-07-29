@@ -1,0 +1,15 @@
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    padding: 0.5rem;
+    border:none;
+    width: 70%;
+  }
+  input:focus {
+    border:none;
+    outline: none;
+  }
+}
