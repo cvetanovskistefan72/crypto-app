@@ -13,7 +13,7 @@ const CryptoListItem: React.FC<CryptoListItemProps> = ({
   getCryptoItem,
 }) => {
   return (
-    <div onClick={()=>{getCryptoItem(cryptoItem.id)}} className={styles.root}>
+    <div data-testid="crypto-list-item" onClick={()=>{getCryptoItem(cryptoItem.id)}} className={styles.root}>
       <div className={styles.left}>
         <div className={styles.img}>
           <img src={cryptoItem?.icon} alt="" />

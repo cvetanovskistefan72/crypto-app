@@ -24,7 +24,7 @@ const CryptoRangeSelect: React.FC<CryptoRangeSelectProps> = ({
   return (
     <>
       {!loading && cryptoChartData && (
-        <div className={styles.root}>
+        <div data-testid="crypto-range" className={styles.root}>
           {standardRanges.map((range, i) => (
             <span
               key={i}

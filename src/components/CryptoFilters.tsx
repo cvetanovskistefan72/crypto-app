@@ -13,10 +13,11 @@ const CryptoFilters: React.FC<CryptoFiltersProps> = ({
 }) => {
   const [name, setName] = useState("");
   return (
-    <div className={styles.root}>
+    <div data-testid="crypto-filters" className={styles.root}>
       <input
         type="text"
         placeholder="Search"
+        aria-label="search"
         value={name}
         onChange={(e) => {
           setName(e.target.value);
